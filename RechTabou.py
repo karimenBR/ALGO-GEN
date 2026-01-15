@@ -25,7 +25,7 @@ def opt(L, M):
                 improved = True
     return B, C
 
-
+    
 def recherche_Tabou(L,M,LV,I):
     Sbest = L[:]
     return 0
