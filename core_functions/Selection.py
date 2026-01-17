@@ -8,6 +8,7 @@ def roulette_selection(population):
         current += ind.fitness
         if current >= pick:
             return ind
+
 def tournament_selection(population, k=3):
     selected = random.sample(population, k)
     return max(selected, key=lambda ind: ind.fitness)
